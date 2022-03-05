@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1035359191128",
+    "project_id": "memorybox-2ba9b",
+    "storage_bucket": "memorybox-2ba9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035359191128:android:409efc01118577c4d74a2d",
+        "android_client_info": {
+          "package_name": "com.example.memorybox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035359191128-pj70d7j84lt7ce2uc3a9poh4hkl9duig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsgcMWqV0aSjHOSHEnjWxksjXJLxrqLcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035359191128-pj70d7j84lt7ce2uc3a9poh4hkl9duig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
