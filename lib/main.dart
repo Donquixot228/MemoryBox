@@ -11,21 +11,16 @@ import 'package:memorybox2/pages/pages.dart';
 import 'package:memorybox2/resources/resources.dart';
 import 'package:memorybox2/routes/app_router.dart';
 import 'package:memorybox2/services/locator.dart';
-
 import 'blocs/recording_bloc/recording_bloc.dart';
 import 'cubits/auth_cubit/signup_cubit.dart';
-
 import 'repositories/auth_repository/auth_repository.dart';
 import 'repositories/database_repository/database_repository.dart';
 
-void main() async {
-  setupLocator();
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  SystemChrome.setPreferredOrientations([
-    DeviceOrientation.portraitUp,
-    DeviceOrientation.portraitDown,
-  ]);
+  setupLocator();
+  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
       systemNavigationBarColor: Color(0xFFF6F6F6),
@@ -51,8 +46,7 @@ void main() async {
           ),
           BlocProvider(
             create: (context) => RecordingBloc(
-              dataBaseRepository: context.read<DataBaseRepository>()
-            ),
+                dataBaseRepository: context.read<DataBaseRepository>()),
           ),
           BlocProvider(
             create: (context) => ProfileBloc(
@@ -62,8 +56,6 @@ void main() async {
           BlocProvider(create: (context) => NavigationIndexCubit()),
           BlocProvider(create: (context) => AudioFileBuilder()),
           BlocProvider(create: (context) => CollectionsBuilderCubit()),
-
-
         ],
         child: MyApp(),
       ),

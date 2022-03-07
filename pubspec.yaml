@@ -27,7 +27,7 @@ dependencies:
   permission_handler:
   open_file:
   external_path: ^1.0.1
-  path_provider:
+
   record:
   audioplayers:
   rive: ^0.8.1

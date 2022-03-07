@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "1035359191128",
-    "project_id": "memorybox-2ba9b",
-    "storage_bucket": "memorybox-2ba9b.appspot.com"
+    "project_number": "470058608966",
+    "project_id": "memory-test-21f2b",
+    "storage_bucket": "memory-test-21f2b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1035359191128:android:409efc01118577c4d74a2d",
+        "mobilesdk_app_id": "1:470058608966:android:f6ad99c6b3c08c2c7b5d47",
         "android_client_info": {
           "package_name": "com.example.memorybox"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1035359191128-pj70d7j84lt7ce2uc3a9poh4hkl9duig.apps.googleusercontent.com",
+          "client_id": "470058608966-rc3v5vm5egqtssbi1p8fefff158jdvq1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.memorybox",
+            "certificate_hash": "180e163ae65633c976c9a061849180bd4fffe15b"
+          }
+        },
+        {
+          "client_id": "470058608966-2bspbarral396ephf7jbf5a7vpirur5u.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBsgcMWqV0aSjHOSHEnjWxksjXJLxrqLcA"
+          "current_key": "AIzaSyAvai7ipjfXKzCII5s9XAgjN26v2Vpa0S4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1035359191128-pj70d7j84lt7ce2uc3a9poh4hkl9duig.apps.googleusercontent.com",
+              "client_id": "470058608966-2bspbarral396ephf7jbf5a7vpirur5u.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
